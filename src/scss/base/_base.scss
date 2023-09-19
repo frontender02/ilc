@@ -1,0 +1,12 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: $font-main;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	color: $clr-main;
+	background-color: $clr-light;
+}
