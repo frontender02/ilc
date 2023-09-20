@@ -1,0 +1,28 @@
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    li {
+        width: 3.6rem;
+        height: 3.6rem;
+        border-radius: 1rem;
+        border: 1px solid #CFDAE7;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        transition: transform .3s ease-in;
+    
+        &:hover {
+            transform: translateY(-0.7rem) scale(1.3);
+        }
+    }
+
+    a {
+        display: inline-block;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+}

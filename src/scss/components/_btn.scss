@@ -1,0 +1,15 @@
+.btn {
+    padding: 1.6rem 3.2rem;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 112.5%;
+    border-radius: 1.5rem;
+    color: $clr-white;
+    background-color: $clr-accent;
+    transition: background-color .3s ease-in;
+
+    &:hover {
+        background-color: $clr-light-accent;
+    }
+}

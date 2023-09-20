@@ -1,11 +1,12 @@
 html {
 	scroll-behavior: smooth;
+	font-size: 62.5%; 
 }
 
 body {
 	font-family: $font-main;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 1.4rem;
 	line-height: 150%;
 	color: $clr-main;
 	background-color: $clr-light;

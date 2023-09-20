@@ -1,11 +1,38 @@
 <header class="header">
-    <div class="container">
-        <div class="header__row">
-            <div class="logo">Logo</div>
-            <button class="mobile-nav-btn">
-                <div class="nav-icon"></div>
-            </button>
-        </div>
-    </div>
+	<div class="container">
+		<div class="header__top">
+			<div class="logo">
+				<div class="logo__img"><img src="./img/logo.svg" alt="" /></div>
+				<h1 class="logo__title">International Legal Center</h1>
+			</div>
+			<p class="header__description">
+				Первый цифровой международный юридический центр
+			</p>
+			<div class="header__user">
+				<a class="phone" href="tel:88005113768">
+					<span class="phone__btn"
+						><img src="./img/icons/smartphone-link.svg" alt="phone"
+					/></span>
+					<span class="phone__text">8 (800) 511-37-68</span>
+				</a>
+				<button class="header__btn btn">Войти</button>
+			</div>
+			<button class="mobile-nav-btn">
+				<div class="nav-icon"></div>
+			</button>
+		</div>
+		<div class="header__bootom">
+			<div class="menu">
+				<ul class="menu__list">
+					<li><a href="#!">О компании</a></li>
+					<li><a href="#" class="active">Услуги</a></li>
+					<li><a href="#!">Sirius</a></li>
+					<li><a href="#!">Тарифы</a></li>
+					<li><a href="#!">FAQ</a></li>
+					<li><a href="#!">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </header>
 @@include('mobile-nav.html')

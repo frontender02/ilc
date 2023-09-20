@@ -9,7 +9,17 @@
 @import "./base/sticky-footer";
 
 // Components
+@import "./components/logo";
+@import "./components/menu";
+@import "./components/mobile-nav";
+@import "./components/nav-icon";
+@import "./components/phone";
+@import "./components/btn";
+@import "./components/socials";
 
 // Blocks 
 @import "./blocks/header";
 @import "./blocks/footer";
+
+// Media
+@import "./media"

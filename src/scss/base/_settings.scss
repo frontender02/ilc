@@ -5,7 +5,19 @@ $font-main: 'Gotham Pro', sans-serif;
 $clr-main: #404040;
 $clr-title: #303030;
 $clr-white: #fff;
+$clr-black: #000;
 $clr-light: #f4f7fa;
 $clr-gray: #737373;
 $clr-accent: #273895;
 $clr-light-accent: #2741d0;
+
+// Container
+$container-width: 1100px;
+$container-padding: 20px;
+
+// Breakpoints
+$xxl: 1399.98px;
+$xl: 1199.98px;
+$lg: 991.98px;
+$md: 767.98px;
+$sm: 575.98px;

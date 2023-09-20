@@ -1,10 +1,21 @@
 .header {
-	background-color: rgb(195, 220, 231);
-	padding: 50px 0;
-
-	&__row {
+	&__top {
+		padding: 4.8rem 0;
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__description {
+		margin-left: 6.2rem;
+		margin-right: auto;
+		max-width: 22.7rem;
+		font-size: 1.2rem;
+	}
+
+	&__user {
+		display: flex;
+		align-items: center;
+		gap: 3.6rem;
 	}
 }

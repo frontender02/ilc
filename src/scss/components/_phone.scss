@@ -1,0 +1,27 @@
+.phone {
+	&__btn {
+        margin-right: 8px;
+        padding: 14px 19px;
+        width: 5rem;
+        height: 5rem;
+
+        display: none; // flex
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 7px;
+        background: linear-gradient(326deg, #2641D1 11.53%, #3333A3 74.32%);
+	}
+
+	&__text {
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 112.5%;
+        color: $clr-title;
+        transition: color .3s ease-in;
+
+        &:hover {
+            color: $clr-accent;
+        }
+	}
+}

@@ -1,0 +1,95 @@
+// 1399.98
+// @media (max-width: $xxl){}
+
+// 1199.98px
+// @media (max-width: $xl){}
+
+// 991.98px
+@media (max-width: $lg) {
+    .header {
+        &__description {
+            display: none;
+        }
+    }
+
+    .footer {
+        &__description {
+            display: none;
+        }
+    }
+}
+
+// 767.98px
+@media (max-width: $md) {
+    .header {
+        &__user {
+            gap: 0;
+        }
+    }
+
+    .phone {
+        &__btn {
+            display: flex;
+        }
+
+        &__text {
+            display: none;
+        }
+    }
+}
+
+// 575.98px
+@media (max-width: $sm) {
+    .header {
+        &__top {
+            padding: 2.2rem 0 4.8rem;
+        }
+
+        &__user {
+            margin-left: auto;
+        }
+
+        &__btn {
+            display: none;
+        }
+    }
+
+    .logo {
+        font-size: 0.7rem;
+        gap: 1rem;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+
+    .mobile-nav-btn {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .footer {
+        &__container {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        &__description {
+            margin: 0;
+            display: block;
+        }
+
+        &__bottom {
+            a + a {
+			    margin-left: 0;
+		    }
+
+            a {
+                display: block;
+            }
+        }
+    }
+}

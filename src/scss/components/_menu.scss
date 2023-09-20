@@ -1,0 +1,20 @@
+.menu {
+	&__list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 4.8rem;
+        row-gap: 1.8rem;
+
+        a {
+            font-weight: 500;
+            font-size: 1.6rem;
+            color: $clr-black;
+            letter-spacing: 0.48px;
+
+            &.active {
+                color: $clr-accent;
+            }
+        }
+	}
+}
