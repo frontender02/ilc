@@ -1,5 +1,7 @@
 // Fonts
 $font-main: 'Gotham Pro', sans-serif;
+$font-size-main: 1.4rem;
+$line-height: 150%;
 
 // Colors
 $clr-main: #404040;
@@ -14,6 +16,9 @@ $clr-light-accent: #2741d0;
 // Container
 $container-width: 1100px;
 $container-padding: 20px;
+// Container Big
+$container-width-big: 1320px;
+$container-padding-big: $container-padding;
 
 // Breakpoints
 $xxl: 1399.98px;

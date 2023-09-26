@@ -3,6 +3,11 @@
 	max-width: $container-width;
 	margin: 0 auto;
 }
+.container-big {
+	padding: 0 $container-padding-big;
+	max-width: $container-width-big;
+	margin: 0 auto;
+}
 
 .container-right {
 	/* overflow-x: hidden; */

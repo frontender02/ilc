@@ -2,7 +2,19 @@
 // @media (max-width: $xxl){}
 
 // 1199.98px
-// @media (max-width: $xl){}
+@media (max-width: $xl){
+    .home {
+        &__img {
+            opacity: 0.5;
+        }
+
+        &__profit {
+            top: initial;
+            bottom: 1.6rem;
+            right: 2rem;
+        }
+    }
+}
 
 // 991.98px
 @media (max-width: $lg) {
@@ -21,6 +33,17 @@
 
 // 767.98px
 @media (max-width: $md) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .title-section {
+        font-size: 2.4rem;
+    }
+    .text-section {
+        font-size: 1.2rem;
+    }
+
     .header {
         &__user {
             gap: 0;
@@ -36,11 +59,60 @@
             display: none;
         }
     }
+
+    .btn {
+        font-size: 1.2rem;
+        border-radius: 1em;
+    }
+
+    .home {
+        &__container {
+            padding-top: 0;
+        }
+
+        &__content {
+            text-align: center;
+        }
+
+        &__text {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1.6rem;
+        }
+
+        &__profit,
+        &__img {
+            right: initial;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        &__img {
+            max-width: 28rem;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        &__profit {
+            width: 12.2rem;
+            height: 12.2rem;
+            z-index: -1;
+
+            &_2 {
+                font-size: inherit;
+            }
+            &_3 {
+                font-size: 1rem;
+            }
+        }
+    }
 }
 
 // 575.98px
 @media (max-width: $sm) {
     .header {
+        margin-bottom: 0;
+
         &__top {
             padding: 2.2rem 0 4.8rem;
         }
