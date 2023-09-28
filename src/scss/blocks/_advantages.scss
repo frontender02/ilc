@@ -1,0 +1,31 @@
+.advantages {
+    margin-left: auto;
+    margin-top: -17rem;
+    padding: 0 2rem;
+    max-width: 78rem;
+
+	&__list {
+        padding: 3.2rem 4.8rem;
+        display: flex;
+        column-gap: 3.2rem;
+        row-gap: 2.4rem;
+        border-radius: 10px;
+        background-color: #F4F7FA;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+	}
+
+	&__item {
+        display: grid;
+        gap: 0.8rem;
+	}
+
+	&__img {
+        max-width: 5.3rem;
+	}
+
+	&__text {
+        font-weight: 600;
+        font-size: 1.6rem;
+        color: $clr-title;
+	}
+}

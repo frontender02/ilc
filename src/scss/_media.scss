@@ -10,8 +10,20 @@
 
         &__profit {
             top: initial;
-            bottom: 1.6rem;
+            bottom: 15rem;
             right: 2rem;
+        }
+    }
+
+    .advantages {
+        margin-top: -14rem;
+    }
+
+    .online-team {
+        padding: 7.2rem 0 3.2rem;
+
+        &__list {
+            margin-right: 0;
         }
     }
 }
@@ -21,6 +33,60 @@
     .header {
         &__description {
             display: none;
+        }
+    }
+
+    .online-team {
+        &__container {
+            flex-direction: column;
+        }
+
+        &__content {
+            max-width: 100%;
+            display: grid;
+            justify-items: center;
+            text-align: center;
+	    }
+
+        &__list {
+            column-gap: 1.6rem;
+
+            &::before {
+                --size: 2.5rem;
+                left: 4rem;
+                top: 54%;
+            }
+            &::after {
+                --size: 10.2rem;
+                top: -8%;
+                right: -12%;
+            }
+        }
+    }
+    .item-online-team {
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4) {
+            padding: 1.6rem;
+        }
+        &:nth-child(1) {
+            .item-online-team__title {
+                font-size: 3.2rem;
+            }
+        }
+
+        &__title {
+            margin-bottom: 0.5rem;
+            font-size: 3.2rem;
+
+            span {
+                font-size: 1.2rem;
+            }
+        }
+
+        &__description {
+            font-size: 1rem;
         }
     }
 
@@ -96,6 +162,7 @@
         &__profit {
             width: 12.2rem;
             height: 12.2rem;
+            bottom: 0;
             z-index: -1;
 
             &_2 {
@@ -104,6 +171,25 @@
             &_3 {
                 font-size: 1rem;
             }
+        }
+    }
+
+    .advantages {
+        margin-top: 1.6rem;
+
+        &__list {
+            padding: 3.2rem;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__item {
+            text-align: center;
+            justify-items: center;
+        }
+
+        &__text {
+            font-size: 1.4rem;
         }
     }
 }
@@ -141,6 +227,26 @@
 
     .menu {
         display: none;
+    }
+
+    .online-team {
+        &__list {
+            justify-content: center;
+        }
+    }
+    .item-online-team {
+        &:nth-child(1) {
+            max-width: 14rem;
+        }
+        &:nth-child(2) {
+            max-width: 12.4rem;
+        }
+        &:nth-child(3) {
+            max-width: 12.4rem;
+        }
+        &:nth-child(4) {
+            max-width: 13.2rem;
+        }
     }
 
     .footer {
