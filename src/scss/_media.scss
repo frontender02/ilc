@@ -90,6 +90,30 @@
         }
     }
 
+    .item-support {
+        padding: 2.4rem;
+    }
+
+    .help-service {
+        &__img {
+            position: static;
+        }
+
+        &__block {
+            padding: 1.6rem 0.8rem;
+        }
+
+        &__title {
+            margin-bottom: 0.4rem;
+            font-size: 1rem;
+        }
+
+        &__btn {
+            padding: 0.8rem 1.2rem;
+            font-size: 1rem;
+        }
+    }
+
     .footer {
         &__description {
             display: none;
@@ -192,6 +216,71 @@
             font-size: 1.4rem;
         }
     }
+
+    .support {
+        &__title {
+            margin-bottom: 2.4rem;
+            font-size: 1.4rem;
+        }
+
+        &__list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .item-support {
+        &__title {
+            font-size: 1.4rem;
+        }
+
+        &:last-child {
+            grid-column: 1/3;
+        }
+    }
+
+    .service {
+        &__top {
+            flex-direction: column;
+            gap: 2.4rem;
+        }
+    }
+    .help-service {
+        &__img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        &__block {
+            right: initial;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .content-service {
+        flex-basis: auto;
+
+        &__title {
+            font-size: 1.4rem;
+            line-height: 150%;
+        }
+
+        &__list {
+            gap: 1.6rem;
+        }
+
+        &__item {
+            padding-left: 2rem;
+
+            &::before {
+                border-width: 0 0 1rem 1rem;
+            }
+        }
+    }
+    .item-service {
+        &__title {
+            font-size: 1.4rem;
+        }
+    }
 }
 
 // 575.98px
@@ -246,6 +335,37 @@
         }
         &:nth-child(4) {
             max-width: 13.2rem;
+        }
+    }
+
+    .support {
+        padding-bottom: 3.5rem;
+
+        &__list {
+            grid-template-columns: 1fr;
+        }
+    }
+    .item-support {
+        text-align: center;
+
+        &:last-child {
+            grid-column: initial;
+        }
+    }
+
+    .service {
+        padding: 3.5rem 0;
+    }
+    .content-service {
+        margin-bottom: 3.2rem;
+
+        &__row {
+            flex-direction: column;
+        }
+
+        &__text,
+        &__list {
+            flex-basis: auto;
         }
     }
 

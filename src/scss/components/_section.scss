@@ -10,4 +10,8 @@
     font-size: $font-size-main;
     line-height: $line-height;
     color: $clr-main;
+
+    p:not(:last-child) {
+        margin-bottom: 1.5em;
+    }
 }

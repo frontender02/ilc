@@ -1,0 +1,42 @@
+.support {
+    padding-bottom: 7.5rem;
+
+	// &__container {}
+
+	&__title {
+        margin-bottom: 3rem;
+        font-weight: 700;
+        font-size: 1.6rem;
+        text-align: center;
+        color: $clr-title;
+	}
+
+	&__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.6rem;
+	}
+
+	// &__item {}
+}
+
+.item-support {
+    padding: 3.2rem;
+    display: grid;
+    gap: 1.6rem;
+    border-radius: 10px;
+    background-color: $clr-white;
+
+	&__img {
+        margin: 0 auto;
+        max-width: 16.7rem;
+	}
+
+	&__title {
+        font-weight: 700;
+        font-size: 1.6rem;
+        color: $clr-title;
+	}
+
+	// &__text {}
+}
