@@ -1,0 +1,24 @@
+.tabs {
+	&__navigation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+	}
+
+	&__btn {
+        &.active {
+            color: #273895;
+        }
+    }
+
+	// &__content {}
+
+	&__body {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+	}
+}

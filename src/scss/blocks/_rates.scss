@@ -1,0 +1,137 @@
+.rates {
+	padding: 7.5rem 0;
+
+	// &__container {}
+
+	&__title {
+		margin-bottom: 3.2rem;
+		display: grid;
+		gap: 1.6rem;
+		line-height: 1;
+		text-align: center;
+
+		span {
+			font-weight: 400;
+			font-size: 1.4rem;
+			color: $clr-main;
+		}
+	}
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 3.2rem;
+	}
+}
+
+.tabs-rates {
+	&__navigation {
+		margin-bottom: 3.2rem;
+		gap: 3.6rem;
+	}
+
+	&__btn {
+		padding: 1rem 2.8rem;
+		font-weight: 500;
+		font-size: 2rem;
+		color: $clr-accent;
+		background-color: transparent;
+		border-radius: 1.5rem;
+
+		&.active {
+			color: $clr-white;
+			background-color: $clr-accent;
+		}
+	}
+
+	// &__content {}
+
+	// &__body {}
+}
+
+.rate {
+	padding: 4.8rem;
+	display: grid;
+	justify-items: start;
+	gap: 1.6rem;
+	border-radius: 2rem;
+	background-color: $clr-white;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+
+	&_free {
+		grid-column: 1/3;
+		justify-items: center;
+		text-align: center;
+
+                .rate__list {
+                        text-align: start;
+                }
+	}
+
+	&__title {
+		font-weight: 600;
+		font-size: 1.6rem;
+		text-transform: uppercase;
+		color: $clr-light-accent;
+	}
+
+	&__free {
+		font-weight: 500;
+		font-size: 3.2rem;
+		color: #c9c9c9;
+	}
+
+	&__subtitle {
+		color: #737373;
+	}
+
+	&__list-title {
+		font-weight: 500;
+		font-size: 1.6rem;
+	}
+
+	&__list {
+                display: grid;
+                gap: 1.6rem;
+	}
+
+	&__item {
+                padding-left: 2rem;
+                position: relative;
+
+                &::before {
+                        content: '';
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        border-width: 0 0 0.4rem 0.8rem;
+                        border-color: transparent transparent #2840CD transparent;
+                        transform: rotate(0deg);
+                        position: absolute;
+                        left: 0;
+                        top: 0.7rem;
+                }
+	}
+
+	&__link {
+		padding-right: 3rem;
+		font-weight: 500;
+		font-size: 1.6rem;
+		line-height: 250%;
+		color: $clr-light-accent;
+		background: url(./../img/icons/arrow.svg) right center no-repeat;
+		transition: opacity 0.3s ease-in, transform 0.5s ease-in;
+
+		&:hover {
+			opacity: 0.9;
+			transform: scale(1.05) translateX(5px);
+		}
+	}
+
+	// &__btn {}
+
+	&__price {
+		font-weight: 600;
+		font-size: 1.6rem;
+	}
+}
