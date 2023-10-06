@@ -346,6 +346,18 @@
             line-height: 150%;
         }
     }
+
+    .item-become-partners {
+        padding: 2.4rem;
+
+        &__title {
+            font-size: 1.4rem;
+        }
+
+        &__description {
+            flex-grow: 1;
+	    }
+    }
 }
 
 // 575.98px
@@ -439,6 +451,37 @@
         
         &__list {
             grid-template-columns: 1fr;
+        }
+    }
+
+    .become-partners {
+        padding: 3.5rem 0;
+
+        &__banner {
+            margin-bottom: 1.6rem;
+            padding: 5rem 0 11rem;
+            text-align: center;
+        }
+
+        &__title {
+            font-size: 2.4rem;
+        }
+
+        &__text {
+            margin: 0 auto;
+            font-size: 1.2rem;
+        }
+
+        &__btn {
+            margin-top: 2.4rem;
+        }
+    }
+    .item-become-partners {
+        flex-direction: column;
+        text-align: center;
+
+        ul {
+            text-align: start;
         }
     }
 
