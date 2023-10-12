@@ -35,5 +35,8 @@
 	},
 	"browserslist": [
 		"last 5 versions"
-	]
+	],
+	"dependencies": {
+		"scrollreveal": "^4.0.9"
+	}
 }

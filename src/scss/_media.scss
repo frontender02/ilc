@@ -176,6 +176,27 @@
         }
     }
 
+    .hero {
+        &__container {
+            align-items: center;
+            gap: 3.2rem;
+        }
+
+        &__comment {
+            padding: 1.6rem;
+            width: 100%;
+            right: 0;
+
+            span {
+                font-size: 1.6rem;
+            }
+        }
+
+        &__content {
+            padding-top: 0;
+	    }
+    }
+
     .footer {
         &__description {
             display: none;
@@ -429,6 +450,24 @@
             flex-direction: column;
         }
     }
+
+    .hero {
+        &__title {
+            margin-bottom: 1.6rem;
+
+            span {
+                font-size: 1.2rem;
+            }
+        }
+        &__subtitle {
+            margin-bottom: 0.8rem;
+            font-size: 1.2rem;
+        }
+
+        &__comment {
+            bottom: -8rem;
+        }
+    }
 }
 
 // 575.98px
@@ -566,6 +605,37 @@
 
     .forecasts {
         margin: 3.5rem 0;
+    }
+
+    .hero {
+        padding: 3.5rem 0 7rem;
+
+        &__container {
+            flex-direction: column;
+        }
+
+        &__title,
+        &__subtitle {
+            text-align: center;
+        }
+
+        &__img {
+            border-radius: 2rem;
+            overflow: hidden;
+        }
+
+        &__comment {
+            bottom: 0;
+        }
+
+        &__content {
+            display: grid;
+            justify-items: center;
+        }
+
+        &__btn {
+            margin-top: 1.6rem;
+        }
     }
 
     .footer {
